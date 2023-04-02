@@ -2,7 +2,9 @@ import React from 'react'
 import './Services.scss'
 const Services = () => {
   return (
-    <div>Services</div>
+    <section id="services">
+      Services
+    </section>
   )
 }
 
