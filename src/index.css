@@ -38,10 +38,14 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url('../src/Assets/bg-texture.png');
+  background-image: url('../src/Assets/bg-texture.png'); 
 }
 
 /* **************** GENERAL STYLES **************** */
+#root {
+  min-height: 500vh;
+}
+
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -57,7 +61,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -118,7 +121,7 @@ img {
   }
 
   section {
-    margin-top: 6rem;
+    margin: 10rem 0;
   }
 }
 

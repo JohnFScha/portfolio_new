@@ -7,12 +7,10 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(
-      45deg, 
-      transparent, 
-      var(--color-primary),
-      transparent
-    );
+    background: linear-gradient(45deg,
+        transparent,
+        var(--color-primary),
+        transparent);
     display: grid;
     place-items: center;
 
@@ -53,7 +51,7 @@
           background: transparent;
           border-color: var(--color-primary-variant);
           cursor: default;
-        
+
         }
 
         .about__icon {
@@ -95,21 +93,24 @@
 
 /* *************** MEDIA QUERIES (SMALL DEVICES) **************** */
 @media screen and (max-width: 600px) {
-  .about__me {
-    width: 65%;
-    margin: 0 auto 3rem;
-  }
+  .about__container {
 
-  .about__content {
-    text-align: center;
-
-    p {
-      margin: 1.5rem 0;
+    .about__me {
+      width: 65%;
+      margin: 0 auto 3rem;
     }
 
-    .about__cards {
-      grid-template-columns: 1fr 1fr !important;
-      gap: 1rem !important;
+    .about__content {
+      text-align: center;
+  
+      .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+  
+      p.about__content-description {
+        margin: 1.5rem 0;
+      }
     }
   }
 }
