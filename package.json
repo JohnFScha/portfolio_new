@@ -1,5 +1,6 @@
 {
   "name": "portfolio_new",
+  "homepage": "https://johnfscha.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

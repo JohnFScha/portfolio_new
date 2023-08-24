@@ -20,6 +20,10 @@
       overflow: hidden;
       transform: rotate(10deg);
       transition: var(--transition);
+      
+      img {
+        aspect-ratio: 1/1;
+      }
 
       &:hover {
         transform: rotate(0);
