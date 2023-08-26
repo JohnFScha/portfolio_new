@@ -1,10 +1,10 @@
 import React from "react";
-import img1 from '../../Assets/portfolio1.jpg'
-import img2 from '../../Assets/portfolio2.jpg'
-import img3 from '../../Assets/portfolio3.jpg'
-import img4 from '../../Assets/portfolio4.jpg'
+import img1 from '../../Assets/portfolio1.png'
+import img2 from '../../Assets/portfolio2.png'
+import img3 from '../../Assets/portfolio3.png'
+import img4 from '../../Assets/portfolio4.png'
 import img5 from '../../Assets/portfolio5.png'
-import img6 from '../../Assets/portfolio6.jpg'
+import img6 from '../../Assets/portfolio6.png'
 
 import "./Portfolio.scss";
 
@@ -12,44 +12,44 @@ const data = [
   {
     id: 1,
     thumbnail: img1,
-    title: "Project 1 Title",
-    github: "https://github.com",
-    demo: "https://vercel.com"
+    title: "Movie search app",
+    github: "https://github.com/JohnFScha/movieSearchApp",
+    demo: "https://movie-search-app-smoky-nine.vercel.app/"
   },
   {
     id: 2,
     thumbnail: img2,
-    title: "Project 2 Title",
-    github: "https://github.com",
-    demo: "https://vercel.com"
+    title: "One Click English",
+    github: "https://github.com/JohnFScha/OneClickEnglish",
+    demo: "https://johnfscha.github.io/OneClickEnglish/"
   },
   {
     id: 3,
     thumbnail: img3,
-    title: "Project 3 Title",
-    github: "https://github.com",
-    demo: "https://vercel.com"
+    title: "Marvel character search ",
+    github: "https://github.com/JohnFScha/MarvelCharacterSearchApp",
+    demo: "https://marvel-character-search-nztfw8hab-sonicfran99.vercel.app/"
   },
   {
     id: 4,
     thumbnail: img4,
-    title: "Project 4 Title",
-    github: "https://github.com",
-    demo: "https://vercel.com"
+    title: "Mock used PS store",
+    github: "https://github.com/JohnFScha/MockPsUsedStore",
+    demo: "https://proyecto-final-react-schallibaum.vercel.app/"
   },
   {
     id: 5,
     thumbnail: img5,
-    title: "Project 5 Title",
-    github: "https://github.com",
-    demo: "https://vercel.com"
+    title: "Newsletter sign-up",
+    github: "https://github.com/JohnFScha/Sign-up",
+    demo: "https://sign-up-swart.vercel.app/"
   },
   {
     id: 6,
     thumbnail: img6,
-    title: "Project 6 Title",
-    github: "https://github.com",
-    demo: "https://vercel.com"
+    title: "Language Time Landing",
+    github: "https://github.com/JohnFScha/EnglishTimeLandingPage",
+    demo: "https://johnfscha.github.io/EnglishTimeLandingPage/index.html"
   }
 ]
 

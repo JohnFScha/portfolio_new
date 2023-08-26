@@ -90,7 +90,7 @@ const Experience = () => {
             <article className="experience-detail">
               <Check className="detail-icon"/>
               <div>
-                <h4>MySQL</h4>
+                <h4>PostgreSQL</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>

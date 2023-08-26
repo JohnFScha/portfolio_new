@@ -39,6 +39,10 @@ footer {
       border: 1px solid transparent;
       transition: var(--transition);
 
+      svg {
+        font-size: 1.5rem;
+      }
+
       &:hover {
         background: transparent;
         color: var(--color-bg);

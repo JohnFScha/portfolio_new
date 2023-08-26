@@ -27,6 +27,7 @@
 
       &:hover {
         transform: rotate(0);
+        filter: grayscale(100%);
       }
     }
   }
@@ -36,6 +37,7 @@
     p {
       margin: 2rem 0 2rem;
       color: var(--color-light);
+      text-align: justify;
     }
 
     .about__cards {

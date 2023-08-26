@@ -10,82 +10,82 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Backend services</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Database setting and maintanance.</p>
             </li>
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>APIs management.</p>
             </li>
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Server optimization</p>
             </li>
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Authentications.</p>
             </li>
           </ul>
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Web development</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Landing pages.</p>
             </li>
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>E-commerce websites.</p>
             </li>
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Personal blogs.</p>
             </li>
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Online portfolios.</p>
             </li>
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Web applications.</p>
+            </li>
+            <li>
+              <BiCheck className="service__icon" />
+              <p>Search engine optimization.</p>
             </li>
           </ul>
         </article>
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Soft Skills</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Fast learner.</p>
             </li>
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Team worker.</p>
             </li>
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Assertive communication.</p>
             </li>
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Adaptabilty to changes.</p>
             </li>
             <li>
               <BiCheck className="service__icon" />
-              <p>Lorem ipsum dolor, sit amet adipisicing elit.</p>
+              <p>Highly organised.</p>
             </li>
           </ul>
         </article>
