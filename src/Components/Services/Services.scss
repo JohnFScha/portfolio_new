@@ -8,6 +8,8 @@
     border-radius: 0 0 2rem 2rem;
     border: 1px solid var(--color-primary);
     height: fit-content;
+    position: relative;
+    display: inline-block;
     transition: var(--transition);
 
     &:hover {
@@ -29,8 +31,16 @@
       }
     }
 
-    .service__list {
+    .show {
+      min-height: 16rem;
       padding: 2rem;
+      transition: var(--transition);
+    }
+
+    .service__list {
+      max-height: 0;
+      overflow: hidden;
+      transition: var(--transition);
 
       li {
         display: flex;
