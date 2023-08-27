@@ -3,8 +3,8 @@ import "./Footer.scss";
 import {
   AiOutlineTwitter,
   AiOutlineInstagram,
-  AiOutlineLinkedin,
 } from "react-icons/ai";
+import {FaLinkedinIn} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -57,7 +57,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <AiOutlineLinkedin />
+          <FaLinkedinIn />
         </a>
       </div>
 

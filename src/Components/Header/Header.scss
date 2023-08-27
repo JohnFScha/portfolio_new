@@ -53,7 +53,7 @@ header {
     position: relative;
     bottom: 0;
     height: 25rem;
-    filter: brightness(0.8)
+    filter: drop-shadow(16px 16px 20px var(--color-primary)) brightness(0.80);
   }
 }
 
