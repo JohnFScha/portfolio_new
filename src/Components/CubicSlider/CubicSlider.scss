@@ -80,6 +80,13 @@
 @media only screen and (max-width: 1024px) {
   .stage-cube-cont {
     width: 70%;
-    padding: 10% 10% 70% 10%;
+    padding: 10% 10% 40% 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .stage-cube-cont {
+    width: 70%;
+    padding: 20% 20% 70% 20%;
   }
 }
