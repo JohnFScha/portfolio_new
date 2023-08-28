@@ -6,11 +6,9 @@ import "./Experience.scss";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>What Skills I have:</h5>
-      <h2>My Experience:</h2>
-      <div>
-        <CubicSlider />
-      </div>
+      <h5>My Skills</h5>
+      <h2>Experience</h2>
+      <CubicSlider />
 
       <div className="container experience-container">
         <div className="experience-frontend">
@@ -55,7 +53,7 @@ const Experience = () => {
               <Check className="detail-icon"/>
               <div>
                 <h4>React</h4>
-                <small className="text-light">Advanced</small>
+                <small className="text-light">Upper intermediate</small>
               </div>
             </article>
           </div>

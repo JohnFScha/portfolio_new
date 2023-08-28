@@ -1,22 +1,16 @@
 import React from "react";
 import "./About.scss";
-import Me from "../../Assets/me.jpg";
-import { FaBrain, FaUsers } from "react-icons/fa";
+import { FaBrain } from "react-icons/fa";
 import { RiUserStarFill } from "react-icons/ri";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>Get To Know Me</h5>
+      <h2>About</h2>
 
       <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={Me} alt="me-about" />
-          </div>
-        </div>
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
@@ -26,8 +20,8 @@ const About = () => {
             </article>
             <article className="about__card">
               <RiUserStarFill className="about__icon" />
-              <h5>Clients</h5>
-              <small>Personal clients.</small>
+              <h5>Freelancer</h5>
+              <small>Personal clients</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -37,7 +31,7 @@ const About = () => {
           </div>
 
           <p className="about__content-description">
-            I'm a Frontend Developer from Argentina. I can help you build small to medium scale projects, ranging but not limited to: landing pages, e-commerce websites and web applications of varied uses. Contact me to start building your online persona!
+            I'm a Frontend Developer from Argentina. I can help you build small to medium scale projects, ranging but not limited to: landing pages, e-commerce websites and web applications of varied uses. Contact me to start building your online presence!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

@@ -8,10 +8,9 @@ const Header = () => {
   return (
     <header id='home'>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
+        <h5>Welcome</h5>
         <h1>John F.</h1>
         <h5 className="text-light">Frontend Developer</h5>
-        <CTA />
         <HeaderSocials />
         
         <div className="me">
@@ -21,6 +20,7 @@ const Header = () => {
         <a href="#contact" className='scroll__down'>Scroll Down</a>
         
       </div>
+      <CTA />
     </header>
   )
 }
