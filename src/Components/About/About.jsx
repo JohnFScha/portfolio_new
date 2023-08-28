@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-import { FaBrain } from "react-icons/fa";
+import { FaBrain, FaGraduationCap } from "react-icons/fa";
 import { RiUserStarFill } from "react-icons/ri";
 import { VscFolderLibrary } from "react-icons/vsc";
 
@@ -28,10 +28,15 @@ const About = () => {
               <h5>Projects</h5>
               <small>+5 projects</small>
             </article>
+            <article className="about__card">
+              <FaGraduationCap className="about__icon" />
+              <h5>Formation</h5>
+              <small>Constantly learning</small>
+            </article>
           </div>
 
           <p className="about__content-description">
-            I'm a Frontend Developer from Argentina. I can help you build small to medium scale projects, ranging but not limited to: landing pages, e-commerce websites and web applications of varied uses. Contact me to start building your online presence!
+            I'm a Frontend Developer from Argentina. I can help you build small to medium scale projects, ranging but not limited to: landing pages, e-commerce websites and web applications of varied uses.I'm currently learning backend technologies to bring you a comprehensive service. Contact me to start building your online presence!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

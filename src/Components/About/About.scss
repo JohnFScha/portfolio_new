@@ -11,15 +11,15 @@
     p {
       margin: 2rem 4rem;
       color: var(--color-light);
-      text-align: justify;
-      width: 75%;
+      text-align: center;
+      width: 85%;
     }
 
     .about__cards {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 1.5rem;
-      width: 75%;
+      width: 100%;
 
       .about__card {
         background: var(--color-bg-variant);
@@ -80,7 +80,7 @@
       }
   
       .about__cards {
-        width: 90%;
+        width: 100%;
       }
     }
   }
