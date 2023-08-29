@@ -14,7 +14,8 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 1.5rem;
-      width: 100%;
+      width: 90%;
+      margin-right: auto;
 
       .about__card {
         background: var(--color-bg-variant);
@@ -49,6 +50,7 @@
     }
   }
 }
+
 section#about {
   
   p {
