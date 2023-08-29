@@ -1,6 +1,5 @@
 import React from "react";
 import { BsFillPatchCheckFill as Check } from "react-icons/bs";
-import CubicSlider from '../CubicSlider/CubicSlider'
 import "./Experience.scss";
 
 const Experience = () => {
@@ -8,7 +7,6 @@ const Experience = () => {
     <section id="experience">
       <h5>My Skills</h5>
       <h2>Experience</h2>
-      <CubicSlider />
 
       <div className="container experience-container">
         <div className="experience-frontend">

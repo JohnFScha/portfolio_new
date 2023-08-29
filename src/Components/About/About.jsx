@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.scss";
+import CubicSlider from "../CubicSlider/CubicSlider";
 import { FaBrain, FaGraduationCap } from "react-icons/fa";
 import { RiUserStarFill } from "react-icons/ri";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -11,6 +12,7 @@ const About = () => {
       <h2>About</h2>
 
       <div className="container about__container">
+        <CubicSlider />
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
@@ -34,15 +36,18 @@ const About = () => {
               <small>Constantly learning</small>
             </article>
           </div>
-
-          <p className="about__content-description">
-            I'm a Frontend Developer from Argentina. I can help you build small to medium scale projects, ranging but not limited to: landing pages, e-commerce websites and web applications of varied uses.I'm currently learning backend technologies to bring you a comprehensive service. Contact me to start building your online presence!
-          </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
         </div>
       </div>
+      <p className="about__content-description">
+        I'm a Frontend Developer from Argentina. I can help you build small to
+        medium scale projects, ranging but not limited to: landing pages,
+        e-commerce websites and web applications of varied uses.I'm currently
+        learning backend technologies to bring you a comprehensive service.
+        Contact me to start building your online presence!
+      </p>
+      <a href="#contact" className="btn btn-primary">
+        Let's Talk
+      </a>
     </section>
   );
 };

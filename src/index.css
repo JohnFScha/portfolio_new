@@ -78,6 +78,7 @@ section>h2 {
   margin-bottom: 3rem;
 }
 
+
 .text.light {
   color: var(--color-light);
 }
@@ -129,6 +130,9 @@ img {
     margin: 8rem 0;
   }
 
+  section#about>h2 {
+    margin-bottom: 0rem;
+  }
 
   section#about {
     margin-top: 2rem;
