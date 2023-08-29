@@ -52,7 +52,7 @@
 }
 
 section#about {
-  
+
   p {
     margin: 2rem auto;
     color: var(--color-light);
@@ -87,7 +87,7 @@ section#about {
         width: 100%;
         margin: 2rem auto 4rem;
       }
-  
+
       .about__cards {
         width: 100%;
       }
@@ -98,26 +98,31 @@ section#about {
 
 /* *************** MEDIA QUERIES (SMALL DEVICES) **************** */
 @media screen and (max-width: 600px) {
-  .about__container {
+  section#about {
+    .about__container {
 
-    .about__me {
-      width: 80%;
-      margin: 0 auto 3rem;
+      .about__me {
+        width: 80%;
+        margin: 0 auto 3rem;
+      }
+
+      .about__content {
+        text-align: center;
+
+        .about__cards {
+          grid-template-columns: 1fr;
+          gap: 1rem;
+          width: 100%;
+        }
+      }
     }
 
-    .about__content {
-      text-align: center;
-  
-      .about__cards {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        width: 100%;
-      }
-  
-      p.about__content-description {
-        margin: 2rem 1.5rem;
-        width: 100%;
-      }
+    p.about__content-description {
+      margin: 2rem auto;
+    }
+
+    .btn {
+      width: 35%;
     }
   }
 }
